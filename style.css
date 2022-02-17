@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 3em 25em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.box {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  height: 8vw;
+  flex: 1;
+  font-size: 150%;
+  font-weight: bold;
+  align-items: center;
+  justify-items: center;
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.gray {
+  background: #ddd;
+}
